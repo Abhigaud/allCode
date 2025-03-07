@@ -1,0 +1,59 @@
+# day 15
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width:200px;
+            height:150px;
+            border:solid grey 0.5px;
+            background-color: rgb(244, 215, 215);
+            text-align: center;
+            box-shadow: 10px 10px 10px grey;
+            border-radius: 5px;
+        }
+        label{
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-decoration: underline;
+        }
+        button{
+            border:transparent;
+            background-color: red;
+            color:white;
+            border-radius: 30%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Introduction to <span  id="a">CSS</span></h1>
+    <h1>Introduction to <span  class="b">CSS</span> Selectors</h1>
+    <h1>Welcome all</h1>
+
+    <form id='update'>
+        <label>Sign In </label><br><br>
+        <input type="email" placeholder="Enter the Email Id" required><br><br>
+        <input type="password" placeholder="Enter the password" required><br><br>
+        <button onclick="form1()">Submit</button>
+    </form>
+
+    <script>
+        document.getElementById('a').innerText='Dom'
+        document.getElementsByClassName('b')[0].innerText='Dom'
+        document.getElementsByTagName('h1')[2].innerText="Thank you"
+
+        // dom events
+        // function
+
+        function form1(){
+            document.getElementById('update').innerHTML="Recieved the form,Thank you"
+        }
+
+    </script>
+
+
+</body>
+</html>
