@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "d:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "d:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "D:\\codeFiles\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\Abhishek Gaud\\.nuget\\packages\\",
-        "outputPath": "d:\\codeFiles\\ConsoleApp1\\obj\\",
+        "outputPath": "D:\\codeFiles\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
