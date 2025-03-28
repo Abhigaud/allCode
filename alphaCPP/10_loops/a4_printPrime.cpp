@@ -2,12 +2,20 @@
 #include<cmath>
 using namespace std;
 int main(){
-    int n = 25;
+    int N=15;
+    for(int i=2; i<=N; i++){
+        int curr=i;//currentnumbertocheckfor
+        bool isPrime=true;
+        for(int j=2; j*j<=i; j++){
+            if(curr % j == 0){
+                isPrime = false;
+            }
+        }
 
-    for (int i = 1; i <= n; i++)
-    {
-        
-        cout<<n <<" X "<<i<<" = "<<n*i<<endl;
+        if(isPrime){
+            cout<< curr <<" ";
+        }
     }
+    cout<<endl;
 
 }
