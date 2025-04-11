@@ -1,4 +1,3 @@
-import java.util.*;
 public class f4_trappingRainwater {
     public static int rainwater(int height[]) {
         int n = height.length;
