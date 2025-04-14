@@ -1,5 +1,9 @@
-import java.util.*;
 public class f4_binary {
+    public static int binSearch(int numbers[], int key){
+        
+        return -1;
+    } 
+
     public static int binarySearch(int numbers[], int key) {
         int start = 0, end = numbers.length-1;
 
