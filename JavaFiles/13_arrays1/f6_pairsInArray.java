@@ -42,9 +42,13 @@ public class f6_pairsInArray {
                     sum +=arr[k];
                 }
                 System.out.print(sum+" ");
+                if (maxArrSum < sum) {
+                 maxArrSum = sum;       
+                }
             }
             System.out.println();
         }
+        System.out.println(maxArrSum);
     }
 
 
