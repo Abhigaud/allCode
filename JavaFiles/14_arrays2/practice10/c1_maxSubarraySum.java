@@ -20,6 +20,7 @@ public class c1_maxSubarraySum {
 
     public static void main(String[] args) {
         int arr[] = {2, 4, 6, 8, 10};
+        int nums[] = {2, 3,4, 5,6};
 
         // pairsArr(arr);
         subArrayPrint(arr);
