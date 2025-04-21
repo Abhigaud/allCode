@@ -25,6 +25,7 @@ public class c1_maxSubarraySum {
         // pairsArr(arr);
         subArrayPrint(arr);
         // pairs(arr);
-        // subarray(arr);
+        
+        subarray(arr);
     }
 }
