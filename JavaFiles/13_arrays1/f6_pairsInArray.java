@@ -1,4 +1,3 @@
-
 public class f6_pairsInArray {
     public static void pairs(int numbers[]) {
         for (int i = 0; i < numbers.length; i++) {
